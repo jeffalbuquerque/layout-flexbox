@@ -3,12 +3,12 @@ body{
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  color: white;
 }
 
 .layout{
   display: flex;
   flex-direction: column;
-  color: white;
 }
 
 header, footer{
@@ -33,8 +33,8 @@ aside{
 
 article{
   flex-grow: 6;
-  /*order: -1;*/
   height: auto;
+  /*order: -1;*/
 }
 
 h1{
